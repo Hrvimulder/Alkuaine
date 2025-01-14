@@ -5,7 +5,7 @@ public class StartClass
         while (true)
         {
             Console.WriteLine("Haluatko pelata (p) tai tarkastella tuloksia (t)?");
-            string input = Console.ReadLine().ToLower();
+            string? input = Console.ReadLine().ToLower();
             if (input == "p")
             {
                 Console.WriteLine("Pelaa");
