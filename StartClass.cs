@@ -1,7 +1,8 @@
 public class StartClass
 {
     int playCount = 0;
-    int averige = 0:
+    int result = 0;
+    int averige = result/playCount;
 
     public static void Start()
     {
@@ -16,7 +17,7 @@ public class StartClass
             }
             else if (input == "t")
             {
-                Console.WriteLine("Tarkastele");
+                Console.WriteLine($"Pelisi keskiarvo tulos on:{averige}");
             }
             else
             {
