@@ -1,0 +1,15 @@
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.AssemblyInfoInputs.cache
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.AssemblyInfo.cs
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.csproj.CoreCompileInputs.cache
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.sourcelink.json
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\bin\Debug\net8.0\Alkuaine.exe
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\bin\Debug\net8.0\Alkuaine.deps.json
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\bin\Debug\net8.0\Alkuaine.runtimeconfig.json
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\bin\Debug\net8.0\Alkuaine.dll
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\bin\Debug\net8.0\Alkuaine.pdb
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.dll
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\refint\Alkuaine.dll
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.pdb
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.genruntimeconfig.cache
+C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\ref\Alkuaine.dll
