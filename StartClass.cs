@@ -2,6 +2,7 @@ public class StartClass
 {
     int playCount = 0;
     int averige = 0:
+
     public static void Start()
     {
         while (true)
@@ -11,6 +12,7 @@ public class StartClass
             if (input == "p")
             {
                 Console.WriteLine("Pelaa");
+                playCount + 1;
             }
             else if (input == "t")
             {
