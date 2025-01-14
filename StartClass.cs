@@ -1,6 +1,6 @@
 using System.IO;
 using System.Collections.Generic;
-
+// Jee 2 (on säätöä)
 public class StartClass()
 {
     int playCount = 0;
