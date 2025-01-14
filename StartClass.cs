@@ -1,5 +1,7 @@
 public class StartClass
 {
+    int playCount = 0;
+    int averige = 0:
     public static void Start()
     {
         while (true)
