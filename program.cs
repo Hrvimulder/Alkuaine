@@ -6,7 +6,7 @@ namespace Alkuaine
     {
         static void Main(string[] args)
         {
-            
+
             StartClass.Start();
         }
     }
