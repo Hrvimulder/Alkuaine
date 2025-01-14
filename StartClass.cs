@@ -5,10 +5,10 @@ public class StartClass()
 {
     int playCount = 0;
     int result = 0;
-    int averige = result/playCount;
+    int averige = result / playCount;
 
     List<string> alkuaineet;
-    
+
     public StartClass()
     {
         alkuaineet = new List<string>(File.ReadAllLines("alkuaineet.txt"));
@@ -24,7 +24,10 @@ public class StartClass()
             if (input == "p")
             {
                 Console.WriteLine("Pelaa");
-                alkuaineet.foreach(Console.WriteLine);
+                foreach (string alkuaine in alkuaineet)
+                {
+                    Console.WriteLine(alkuaine);
+                }
                 playCount + 1;
             }
             else if (input == "t")
