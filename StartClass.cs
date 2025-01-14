@@ -1,8 +1,12 @@
+using System.IO;
+using System.Collections.Generic;
 public class StartClass
 {
     int playCount = 0;
     int result = 0;
     int averige = result/playCount;
+
+    List<string> alkuaineet = new List<string>();
 
     public static void Start()
     {
