@@ -13,3 +13,11 @@ C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\refint\Alkuai
 C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.pdb
 C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\Alkuaine.genruntimeconfig.cache
 C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\obj\Debug\net8.0\ref\Alkuaine.dll
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.AssemblyInfoInputs.cache
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.AssemblyInfo.cs
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.csproj.CoreCompileInputs.cache
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.sourcelink.json
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.dll
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\refint\Alkuaine.dll
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.pdb

@@ -1,22 +1,30 @@
 using System.IO;
 using System.Collections.Generic;
-public class StartClass
+
+public class StartClass()
 {
     int playCount = 0;
     int result = 0;
     int averige = result/playCount;
 
-    List<string> alkuaineet = new List<string>();
+    List<string> alkuaineet;
+    
+    public StartClass()
+    {
+        alkuaineet = new List<string>(File.ReadAllLines("alkuaineet.txt"));
+    }
 
-    public static void Start()
+    public void Start()
     {
         while (true)
         {
             Console.WriteLine("Haluatko pelata (p) tai tarkastella tuloksia (t)?");
-            string? input = Console.ReadLine().ToLower();
+            string? input = Console.ReadLine()?.ToLower();
+
             if (input == "p")
             {
                 Console.WriteLine("Pelaa");
+                alkuaineet.foreach(Console.WriteLine);
                 playCount + 1;
             }
             else if (input == "t")

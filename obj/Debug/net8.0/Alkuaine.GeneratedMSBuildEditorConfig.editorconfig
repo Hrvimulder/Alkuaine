@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Alkuaine
-build_property.ProjectDir = C:\Users\nsuur\OneDrive\Tiedostot\GitHub\Alkuaine\
+build_property.ProjectDir = C:\Alkuaineprojekti\Alkuaine\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
