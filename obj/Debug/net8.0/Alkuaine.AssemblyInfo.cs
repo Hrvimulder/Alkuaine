@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alkuaine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+930b92b8788ee796c22a93e36ba880fd72aab65a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2210a76f6e57be7a1ff5286d09d13c70ef8b6a91")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alkuaine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alkuaine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
