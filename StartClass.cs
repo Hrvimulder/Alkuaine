@@ -1,6 +1,8 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
+using Newtonsoft.Json;
+using System.ComponentModel;
 
 public class StartClass
 {
@@ -70,7 +72,7 @@ public class StartClass
 
             if (userAnswers.Contains(answer))
             {
-                Console.WriteLine("Olet jo syöttänyt tämän alkuainetta. Yritä uudelleen.");
+                Console.WriteLine("Olet jo syöttänyt tämän nimisen alkuaineen. Yritä uudelleen.");
                 i--;
                 continue;
             }
@@ -86,5 +88,42 @@ public class StartClass
         int wrongAnswers = 5 - correctAnswers;
 
         Console.WriteLine($"\nPeli päättyi! Oikeita vastauksia: {correctAnswers}, Vääriä vastauksia: {wrongAnswers}\n");
+
+        SaveResult(correctAnswers, wrongAnswers);
+    }
+
+    private void SaveResult(int correctAnswers, int wrongAnswers)
+    {
+        string directoryName = DateTime.Now.ToString("ddMMyyyy");
+        string directoryPath = Path.Combine(Directory.GetCurrentDirectory(), directoryName);
+
+        if (!Directory.Exists(directoryPath)) ;
+        {
+            Directory.CreateDirectory(directoryPath);
+        }
+
+        string filePath = Path.Combine(directoryPath, "tulokset.json");
+
+        List<object> results = new List<object>();
+
+        if (File.Exists(filePath))
+        {
+            string existingData = File.ReadAllText(filePath);
+            results = JsonConvert.DeserializeObject<List<object> > (existingData) ?? new List<object>();
+
+        }
+
+        var newResult = new
+        {
+            Date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
+            correctAnswers = correctAnswers,
+            wrongAnswers = wrongAnswers
+        };
+        results.Add(newResult);
+
+        string json = JsonConvert.SerializeObject(results, Formatting.Indented);
+        File.WriteAllText(filePath, json);
+
+        Console.WriteLine($"Tulokset tallennettu tiedostoon");
     }
 }
