@@ -1,13 +1,13 @@
 using System.IO;
 using System.Collections.Generic;
 
-public class StartClass()
+public class StartClass
 {
-    int playCount = 0;
-    int result = 0;
-    int averige = result / playCount;
+    //int playCount = 0;
+    //int result = 0;
+    //int averige = result / playCount;
 
-    List<string> alkuaineet;
+    public List<string> alkuaineet;
 
     public StartClass()
     {
@@ -28,11 +28,11 @@ public class StartClass()
                 {
                     Console.WriteLine(alkuaine);
                 }
-                playCount + 1;
+                //playCount + 1;
             }
             else if (input == "t")
             {
-                Console.WriteLine($"Pelisi keskiarvo tulos on:{averige}");
+                //Console.WriteLine($"Pelisi keskiarvo tulos on:{averige}");
             }
             else
             {

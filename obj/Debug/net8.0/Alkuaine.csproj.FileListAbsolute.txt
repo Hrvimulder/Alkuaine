@@ -21,3 +21,13 @@ C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.sourcelink.json
 C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.dll
 C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\refint\Alkuaine.dll
 C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.pdb
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.csproj.AssemblyReference.cache
+C:\Alkuaineprojekti\Alkuaine\bin\Debug\net8.0\Alkuaine.exe
+C:\Alkuaineprojekti\Alkuaine\bin\Debug\net8.0\Alkuaine.deps.json
+C:\Alkuaineprojekti\Alkuaine\bin\Debug\net8.0\Alkuaine.runtimeconfig.json
+C:\Alkuaineprojekti\Alkuaine\bin\Debug\net8.0\Alkuaine.dll
+C:\Alkuaineprojekti\Alkuaine\bin\Debug\net8.0\Alkuaine.pdb
+C:\Alkuaineprojekti\Alkuaine\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.csproj.Up2Date
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\Alkuaine.genruntimeconfig.cache
+C:\Alkuaineprojekti\Alkuaine\obj\Debug\net8.0\ref\Alkuaine.dll

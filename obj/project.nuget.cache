@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oQDLK52QqVQ=",
+  "dgSpecHash": "oqr6Eckefyw=",
   "success": true,
   "projectFilePath": "C:\\Alkuaineprojekti\\Alkuaine\\Alkuaine.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nsuur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
