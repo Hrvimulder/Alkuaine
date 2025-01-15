@@ -1,7 +1,7 @@
 using System.IO;
 using System.Collections.Generic;
 
-public class StartClass
+public class StartClass()
 {
     //int playCount = 0;
     //int result = 0;
