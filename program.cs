@@ -9,6 +9,8 @@ namespace Alkuaine
             //Create new startClass object and run it.
             StartClass startClass = new StartClass();
             startClass.Start();
+            ResultAnalyzer analyzer = new ResultAnalyzer();
+            analyzer.CalculateAverageCorrectAnswers();
 
         }
     }

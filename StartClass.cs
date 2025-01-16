@@ -38,7 +38,8 @@ public class StartClass
             }
             else if (input == "t")
             {
-                //Console.WriteLine($"Pelisi keskiarvo tulos on:{averige}");
+                ResultAnalyzer analyzer = new ResultAnalyzer();
+                analyzer.CalculateAverageCorrectAnswers();
             }
             else
             {
@@ -102,7 +103,7 @@ public class StartClass
         string directoryName = DateTime.Now.ToString("ddMMyyyy");
         string directoryPath = Path.Combine(Directory.GetCurrentDirectory(), directoryName);
         //Check that directory exists, if not create one.
-        if (!Directory.Exists(directoryPath)) ;
+        if (!Directory.Exists(directoryPath))
         {
             Directory.CreateDirectory(directoryPath);
         }
@@ -114,16 +115,24 @@ public class StartClass
         //Try convert existingData string to List<object>. If conversion fails, then create empty list.
         if (File.Exists(filePath))
         {
-            string existingData = File.ReadAllText(filePath);
-            results = JsonConvert.DeserializeObject<List<object> > (existingData) ?? new List<object>();
+            try
+            {
+                string existingData = File.ReadAllText(filePath);
+                results = JsonConvert.DeserializeObject<List<object>>(existingData) ?? new List<object>();
+            }
+            catch
+            {
+                Console.WriteLine("Virhe tiedoston lukemisessa. Aloitetaan tyhjällä listalla.");
+                results = new List<object>();
+            }
 
         }
         //Create new object variable to contain Date and answer count.
         var newResult = new
         {
             Date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
-            correctAnswers = correctAnswers,
-            wrongAnswers = wrongAnswers
+            CorrectAnswers = correctAnswers,
+            WrongAnswers = wrongAnswers
         };
         //Add object to results list to store info above.
         results.Add(newResult);
