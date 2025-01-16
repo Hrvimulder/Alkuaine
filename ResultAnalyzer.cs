@@ -1,8 +1,11 @@
 using Newtonsoft.Json;
+//Create class to calculate average from quiz result files.
 public class ResultAnalyzer
 {
+    //Create a method to calculate average.
     public void CalculateAverageCorrectAnswers()
     {
+        //Variables for storing current directory and directories.
         string currentDirectory = Directory.GetCurrentDirectory();
         string[] directories = Directory.GetDirectories(currentDirectory);
 

@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
-using System.ComponentModel;
+
 
 //Create a startClass and initialize alkuaineet list.
 public class StartClass

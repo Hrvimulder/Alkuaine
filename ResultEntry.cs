@@ -1,3 +1,4 @@
+//Create a class for result entry, containing date and correct and wrong answers.
 public class ResultEntry
 {
     public string Date { get; set; } = string.Empty;
