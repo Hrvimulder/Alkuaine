@@ -11,3 +11,5 @@ build_property.RootNamespace = Alkuaine
 build_property.ProjectDir = C:\Alkuaineprojekti\Alkuaine\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
